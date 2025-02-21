@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+ <!-- Navigation menu -->
+<nav>
+    <div class="nav-container">
+        <div class="logo">
+            Dev<span>Flow</span>
+        </div>
+        <div class="links">
+            <div class="link"><a href="index.html">Home</a></div>
+            <div class="link"><a href="about.html">About</a></div>
+            <div class="link"><a href="skills.html">Skills</a></div>
+            <div class="link"><a href="services.html">Services</a></div>
+            <div class="link"><a href="contact.html">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+    <div class="dropdown">
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+    </div>
+</nav>
+</header>
+ <!-- Main content -->
+<main>
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="contact-details">
+                <!-- Text container -->
+                <div class="text">
+                    <div class="topic"><h1>Let's <span>Connect</span></h1></div>
+                    <p>Have a project in mind or just want to say hello? Feel free to reach out to me via email or phone. I am always open to new opportunities and collaborations, and I look forward to hearing from you!</p>
+                </div>
+                <!-- Form container -->
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone" name="phone" placeholder="Your phone number" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!-- Footer -->
+<footer>
+    <div class="text">
+        <span>Created By Ryan Limb | &copy; 2025 All Rights Reserved</span>
+    </div>
+</footer>
+<!--External JS-->
+<script src="script.js"></script>
+</body>
+</html>

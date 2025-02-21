@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>About</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+ <!-- Navigation menu -->
+<header>
+<nav>
+    <div class="nav-container">
+        <div class="logo">
+            Dev<span>Flow</span>
+        </div>
+        <div class="links">
+            <div class="link"><a href="index.html">Home</a></div>
+            <div class="link"><a href="about.html">About</a></div>
+            <div class="link"><a href="skills.html">Skills</a></div>
+            <div class="link"><a href="services.html">Services</a></div>
+            <div class="link"><a href="contact.html">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+    <div class="dropdown">
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+    </div>
+</nav>
+</header>
+ <!-- Main content -->
+<main>
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="content">
+            <div class="about-details">
+                <!-- Image container -->
+                <div class="left">
+                    <div class="about-image">
+                        <img src="Homeimg.JPEG" alt="Picture of the website author, Ryan">
+                    </div>
+                </div>
+                <!-- Text container -->
+                <div class="right">
+                    <div class="about-text">
+                        <h1 style="font-size: 40px; font-weight: 600;">About <span>Me</span></h1><br>
+                        <p>I'm <span> Ryan </span> and I'm a <span> Web Designer & Developer</span>
+                        with a deep curiosity for technology and innovation, I am on a journey to master the art of coding and software development.
+                        My academic pursuits have honed my skills in various programming languages and equipped me to tackle complex problems with creative solutions.
+                        When I’m not immersed in my studies, you’ll find me exploring the latest tech trends, working on personal projects, or collaborating with peers on exciting ventures.
+                        I am driven by a desire to make a positive impact in the tech world and am always eager to learn and grow. Welcome to my digital space, where you can explore my work, insights, and journey!</p>
+                    </div>
+                    <div class="exp-area">
+                        <p class="exp">
+                            Experience: 
+                            <span>1 year</span>
+                        </p>
+                        <p class="exp">
+                            Speciality:
+                             <span>Web Development</span>
+                        </p>
+                        <p class="exp">
+                            Address:
+                             <span> Manchester, UK</span>
+                        </p>
+                        <p class="exp">
+                            Phone: 
+                            <span> +44 7852247801</span>
+                        </p>
+                        <p class="exp">
+                            Email: <span> Ryanlimb@me.com</span>
+                        </p>
+                    </div>
+                    <!-- Button -->
+                    <div class="btn" id="btn1">
+                        <button>View Projects</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!-- Footer -->
+<footer>
+    <div class="text">
+        <span>Created By Ryan Limb | &copy; 2025 All Rights Reserved</span>
+    </div>
+</footer>
+<!--External JS-->
+<script src="script.js"></script>
+</body>
+</html>
